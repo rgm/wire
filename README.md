@@ -130,15 +130,15 @@
   Each can be called like:
 
   ```clojure
-  => (wire/viz-graph-names graph {:foo/a 15 :foo/b 3})
+  => (wire.graph/viz-graph-names graph {:foo/a 15 :foo/b 3})
   ```
   ![View graph with names](img/viz-graph-names.png)
   ```clojure
-  => (wire/viz-graph-results graph {:foo/a 15 :foo/b 3})
+  => (wire.graph/viz-graph-results graph {:foo/a 15 :foo/b 3})
   ```
   ![View graph with results](img/viz-graph-results.png)
   ```clojure
-  => (wire/viz-graph-fns graph {:foo/a 15 :foo/b 3})
+  => (wire.graph/viz-graph-fns graph {:foo/a 15 :foo/b 3})
   ```
   ![View graph with functions](img/viz-graph-fns.png)
 

@@ -1,0 +1,4 @@
+{:linters
+ {:clojure.lsp/unused-public-var {:exclude #{troy-west.wire.graph/viz-graph-names
+                                             troy-west.wire.graph/viz-graph-results
+                                             troy-west.wire.graph/viz-graph-fns}}}}

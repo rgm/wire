@@ -1,0 +1,10 @@
+{:paths ["src"]
+ :deps
+ {com.stuartsierra/dependency {:mvn/version "1.0.0"}
+  org.clojure/clojure {:mvn/version "1.12.5"}
+  rhizome/rhizome {:mvn/version "0.2.9"}}
+ :aliases
+ {:test
+  {:extra-deps
+   {lambdaisland/kaocha {:mvn/version "1.91.1392"}
+    lambdaisland/kaocha-cljs {:mvn/version "1.9.181"}}}}}
